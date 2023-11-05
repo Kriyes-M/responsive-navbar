@@ -11,3 +11,8 @@
   align-items: center;
   justify-content: space;
 }
+
+#headerTitle {
+  width: 30%;
+  padding-left: 3rem;
+}
