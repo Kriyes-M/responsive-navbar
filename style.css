@@ -18,6 +18,11 @@
   padding-left: 3rem;
 }
 
+.links-list {
+  display: flex;
+  list-style-type: none;
+}
+
 li::marker {
   content: "";
 }
