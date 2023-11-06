@@ -23,6 +23,9 @@ nav {
 #headerTitle {
   width: 30%;
   padding-left: 3rem;
+  letter-spacing: 2px;
+  color: rgb(0, 176, 220);
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .links-list {
