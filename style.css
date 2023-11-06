@@ -23,6 +23,11 @@
   list-style-type: none;
 }
 
+.links-list>li>a {
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
 li::marker {
   content: "";
 }
