@@ -57,12 +57,23 @@ li::marker {
   .hamburger-menu-button {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    justify-content: space-around;
     width: 30px;
+    aspect-ratio: 1;
+    transition: rotate 0.2s linear;
   }
 
   .hamburger-slice {
     background-color: rgb(0, 176, 220);
-    height: 4px;
+    height: 5px;
+    transition: background-color 0.2s linear;
+  }
+
+  .hamburger-menu-button:hover {
+    rotate: 90deg;
+  }
+
+  .hamburger-menu-button:hover .hamburger-slice {
+    background-color: rgb(0, 57, 71);
   }
 }
