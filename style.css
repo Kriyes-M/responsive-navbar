@@ -48,3 +48,9 @@ nav {
 li::marker {
   content: "";
 }
+
+@media (max-width: 900px) {
+  .links-list {
+    display: none;
+  }
+}
