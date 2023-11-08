@@ -61,9 +61,11 @@ li::marker {
 
   #headerTitle {
     padding-left: 1rem;
+    padding-bottom: 1rem;
   }
 
   .links-list {
+    height: 0;
     width: 100%;
     flex-direction: column;
   }
