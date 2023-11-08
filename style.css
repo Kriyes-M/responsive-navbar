@@ -33,6 +33,7 @@ nav {
   display: flex;
   list-style-type: none;
   overflow: hidden;
+  transition: height 0.25s linear;
 }
 
 .links-list>li>a {
