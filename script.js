@@ -9,3 +9,5 @@ function toggleLinks() {
     linksList.classList.add('show-links');
   }
 }
+
+hamburgerButton.addEventListener('click', toggleLinks);
