@@ -1,2 +1,2 @@
 const hamburgerButton = document.getElementById('hamburgerButton');
-const headerContent = document.getElementById('headerContent');
+const linksList = document.getElementById('linksList');
